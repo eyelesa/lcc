@@ -4,27 +4,29 @@
 
 <head>
    
-    <title>web demo landing page</title>
+    <title>alex harding</title>
     
     <!-- style is how you add internal css rules to your html -->
     <style>
+        p.double {border-style: double;}
         html {
-            background-color: #8383a1;
+            background-color: #4e98b9;
             color: #131514;
             font-family: 'Playfair Display', serif;
+            
         }
 
         body {
-            max: 60vw;
+        
+           width: 60vw;
             max-width: 800px;
             margin: auto;
             margin-top: 2rem;
-            padding: 1rem;
-            background: none;
+            padding: 3rem;
+            border-radius: 4rem;
             font-family: 'Playfair Display', serif;
-            color:rgb(26, 26, 26)
+            background-color: rgb(194, 153, 92);
         }
-
         a {
             color: rgb(0, 0, 0);
         }
@@ -49,11 +51,12 @@ a:active {
 }
 
 div:hover {
-  background-color: #6c6c94;
+  background-color: #3f7e9b;
 }div {
-  background-color: #717197;
+    background: rgb(78,152,185);
+background: linear-gradient(90deg, rgba(78,152,185,1) 0%, rgba(78,118,185,1) 100%);
   color: #131514;
-  padding: 5px;
+  padding: 2px;
   text-align: left;
 }
     </style>
@@ -61,10 +64,11 @@ div:hover {
 
 <body>
     <!-- headline text -->
-    <h1>alex harding - web demo page</h1> 
 
+    <h1>alex harding - web demo page</h1> 
+    
     <!-- introduction text -->
-    <p>im alex - and this is the page where i put all my stuff.</p>
+    <p>hi! im alex - and this is the page where i put all my stuff. writing code makes me want to commit a felony!</p>
 
     
     <!-- 
@@ -81,13 +85,19 @@ div:hover {
     -->
 
 
-    <!-- bullet list with items that include a link to a new page -->\
+    <!-- bullet list with items that include a link to a new page -->
     <div>
     <ul>
         <li><strong><a href="gonkba.html" target="_blank">html assignment</a></strong> -
             my html demo assignment - the first few minutes of the bee movie script written entirely from memory.</li>
     </ul>
     </div>
+    <div>
+        <ul>
+            <li><strong><a href="boxes.html" target="_blank">boxes assignment</a></strong> -
+                the box assignment.</li>
+        </ul>
+        </div>
 
 
 </body>
