@@ -9,7 +9,7 @@
     <!-- style is how you add internal css rules to your html -->
     <style>
         html {
-            background-color: #c7d7d0;
+            background-color: #8383a1;
             color: #131514;
             font-family: 'Playfair Display', serif;
         }
@@ -22,22 +22,51 @@
             padding: 1rem;
             background: none;
             font-family: 'Playfair Display', serif;
+            color:rgb(26, 26, 26)
         }
 
         a {
-            color: #444;
+            color: rgb(0, 0, 0);
         }
+         /* unvisited link */
+a:link {
+  color: rgb(42, 41, 83);
+}
+
+/* visited link */
+a:visited {
+  color: rgb(0, 0, 0);
+}
+
+/* mouse over link */
+a:hover {
+  color: rgb(62, 62, 100);
+}
+
+/* selected link */
+a:active {
+  color: rgb(62, 62, 100);
+}
+
+div:hover {
+  background-color: #6c6c94;
+}div {
+  background-color: #717197;
+  color: #131514;
+  padding: 5px;
+  text-align: left;
+}
     </style>
 </head>
 
 <body>
     <!-- headline text -->
-    <h1>alex's very cool page.</h1> 
+    <h1>alex harding - web demo page</h1> 
 
     <!-- introduction text -->
-    <p>heres all my work for lcc digital media and design. its very good..</p>
+    <p>im alex - and this is the page where i put all my stuff.</p>
 
-        
+    
     <!-- 
     structure of a link:
     <a> is an anchor and tells the browser to go somewhere
@@ -52,11 +81,13 @@
     -->
 
 
-    <!-- bullet list with items that include a link to a new page -->
+    <!-- bullet list with items that include a link to a new page -->\
+    <div>
     <ul>
         <li><strong><a href="gonkba.html" target="_blank">html assignment</a></strong> -
             my html demo assignment - the first few minutes of the bee movie script written entirely from memory.</li>
     </ul>
+    </div>
 
 
 </body>
