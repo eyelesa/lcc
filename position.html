@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>positioning demo page</title>
+    <!-- the following links reset and unify website settings -->
+<link href="https://unpkg.com/@csstools/normalize.css" rel="stylesheet" />
+    <link href="https://unpkg.com/sanitize.css" rel="stylesheet" />
+    <link href="https://unpkg.com/sanitize.css/typography.css"
+        rel="stylesheet" />
+        
+    <style>
+        body {
+            color: rgb(26, 20, 23);
+            background-color: rgb(112, 109, 111);
+        }
+
+        header {
+            position: sticky;
+            top: 0;
+            background: rgb(22, 20, 20);
+            color: rgb(134, 104, 104);
+            padding: 1rem;
+            text-align: center;
+        }
+
+        section {
+            background: #72889e;
+            padding: 2rem;
+            margin: 2rem;
+            width: 80%;
+            margin-left: auto;
+            margin-right: auto;
+            box-shadow: inset 0 0 30px #00000055;
+            margin-bottom: 1rem;
+        }
+
+        div {
+            background: #88d6df;
+            padding: 1rem;
+            width: 40%;
+            border: 1px solid #cccccc55;
+            box-shadow: inset 0 0 30px #00000055;
+            margin-bottom: 1rem;
+        }
+
+        .static {}
+
+        .relative {}
+
+        .absolute {}
+
+        .fixed {}
+
+        .left {}
+
+        .right {}
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>web demo for positioning and floating elements on a page</h1>
+        <p>this header has sticky positioning</p>
+    </header>
+
+    <main>
+        <!-- positioning options -->
+
+        <section>
+            <div class="static">
+                <p>this box has static positioning O.O</p>
+            </div>
+
+            <div class="relative">
+                <p>this box has relative positioning )-)</p>
+            </div>
+
+            <div class="absolute">
+                <p>this box has absolute positioning >:)</p>
+            </div>
+
+            <div class="fixed">
+                <p>this box has fixed positioning :-)</p>
+            </div>
+        </section>
+
+        <!-- floating options -->
+        <section>
+            <div class="left">
+                <p>this box floats to the left!!!</p>
+            </div>
+
+            <h2>bangtan boys (BTS)</h2>
+            <p>BTS (Korean: 방탄소년단; RR: Bangtan Sonyeondan), also known as the Bangtan Boys, is a seven-member South Korean boy band formed in Seoul in 2010.[3] The septet co-writes and produces much of their output. Originally a hip hop group, their musical style has evolved to include a wide range of genres. Their lyrics, often focused on personal and social commentary, touch on the themes of mental health, troubles of school-age youth, loss, the journey towards loving oneself, and individualism. Their work features references to literature and psychological concepts and includes an alternative universe storyline. The group has staged several world tours. </p>
+
+            <p>The group initially formed as teenagers under Big Hit Entertainment and released their debut single album, 2 Cool 4 Skool (2013). Subsequent work such as their first U.S. Billboard 200 entries The Most Beautiful Moment in Life, Part 2 (2015), The Most Beautiful Moment in Life: Young Forever (2016), and Wings (2016) helped establish BTS' reputation as a socially conscious group. Wings became BTS' first album to sell one million copies in South Korea. By 2017, BTS crossed into the international music market, leading the Korean Wave into the United States and breaking numerous sales records, becoming the first Korean group to receive a certification from the Recording Industry Association of America (RIAA) for their single "Mic Drop".</p>
+        </section>
+
+        <section>
+                <h2>not bangtan boys (BTS)</h2>
+                <p>The unicorn is a legendary creature that has been described
+                    since antiquity as a beast with a single large, pointed,
+                    spiraling horn projecting from its forehead. The unicorn was
+                    depicted in ancient seals of the Indus Valley Civilization
+                    and was mentioned by the ancient Greeks in accounts of
+                    natural history by various writers, including Ctesias,
+                    Strabo, Pliny the Younger, Aelian</p>
+
+                <p>In European folklore, the unicorn is often depicted as a
+                    white horse-like or goat-like animal with a long horn and
+                    cloven hooves (sometimes a goat's beard). In the Middle Ages
+                    and Renaissance, it was commonly described as an extremely
+                    wild woodland creature, a symbol of purity and grace, which
+                    could be captured only by a virgin. In the encyclopedias,
+                    its horn was said to have the power to render poisoned water
+                    potable and to heal sickness. In medieval and Renaissance
+                    times, the tusk of the narwhal was sometimes sold as unicorn
+                    horn.</p>
+                    <div class="right">
+                        <p>this box will float to the right</p>
+                    </div>
+            
+        </section>
+    </main>
+
+</body>
+
+</html>
