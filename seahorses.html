@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>seahorse serenity</title>
+
+  <link rel="shortcut icon" href="seahorsefavicon.ico" type="image/x-icon">
+  <link rel="icon" href="seahorsefavicon.ico" type="image/x-icon">
+
+  <style>
+
+.clearfix::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+html {
+	box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+	box-sizing: inherit;
+}
+
+body {
+	background: rgb(189, 230, 242);
+	width: 80%;
+	max-width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* layout breakdown */
+
+
+/* header content */
+header h1 {
+  position: sticky;
+            top: 0;
+            background: #4c9ed4;
+            color: #051c47;
+            padding: 2rem;
+            text-align: center;
+            border-radius: 1rem;
+            z-index:500;
+            border: 10px solid #4c9ed4;
+}
+
+header img {
+	background: #61b8ff;
+  color:#051c47;
+	width: 55%;
+	float: right;
+	height: 150px;
+  padding: 1rem;
+  margin: 1rem;
+  border: 10px solid #335f83;
+  
+}
+
+/* main content */
+nav {
+	width: 40%; 
+	float: left;
+  background: #61b8ff;
+}
+
+article {
+	width: 60%; 
+	float: left;
+	padding-left: 1rem;
+}
+
+/* nav stuff */
+nav ul {
+	list-style-type:none;
+	margin: 1rem;
+	padding: 0;
+}
+
+nav a {
+	display: block;
+	background: #4888bd;
+	color: #051c47;
+	height:2.5rem;
+	margin: .5rem;
+	text-align: center; 
+	text-decoration: none;
+  border: 7px solid #285b85;
+  font-family: Muli;
+  padding:5px 5px 
+}
+
+nav a:hover {background: rgb(30, 44, 66); color: #4c9ed4;}
+
+p{color: #051c47; font-family: Muli;}
+
+h1{color: #051c47; font-family: 'Abril Fatface', cursive;}
+
+h2{color: #051c47; font-family: 'Abril Fatface', cursive;}
+
+a{color: #051c47; font-family: Muli;}
+
+footer h2 {font-size: 15px;}
+
+footer ul {list-style: none;}
+
+footer li {display: inline;}
+
+footer {text-align: center;}
+
+header figure {
+            height: 100%;
+            width: 50%;
+            float: left;
+            margin: 0;
+            padding: 0;
+            float: right;
+        }
+
+        /* scale image to fit container. parts of image will get cut off, what is the most important */
+        img {
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+            object-position: center center;
+        }
+#info{background: #4c9ed4; width: 100%; height:100%; padding: 1rem;}
+    
+  </style>
+  <link href="https://fonts.googleapis.com/css2?family=Muli:wght@500&display=swap" rel="stylesheet"> 
+  <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet"> 
+  
+</head>
+
+<body>
+  <header class="clearfix">
+    <h1>Seahorses</h1>
+  </div>
+  <figure>
+      <img src="original.jpg" alt="seahorse swag" />
+  </figure>
+  </header>
+
+  <main class="clearfix">
+    <nav>
+      <ul>
+        <li><a href="#">Seahorse Home</a></li>
+        <li><a href="#">Seahorse News</a></li>
+        <li><a href="#">Seahorse Science</a></li>
+        <li><a href="#">Seahorse Fiction</a></li>
+        <li><a href="#">Seahorse Fables</a></li>
+        <li><a href="#">Seahorse Songs</a></li>
+      </ul>
+    </nav>
+
+    <article>
+    <figure id=info>
+      <h1>Seahorse Fax</h1>
+      <h2>Name</h2>
+      <p>The Latin name for seahorse is Hippocampus which means "Horse
+        Caterpillar"</p>
+      <h2>What is a Seahorse</h2>
+      <p>Seahorses are fish. They live in water, breath through gills and have a
+        swim bladder. However they do not have caudal fins and have a long
+        snake-like tail. They also have a neck and a snout that points down.</p>
+      <h2>Eyesight</h2>
+      <p>Seahorses have excellent eyesight and their eyes are able to work
+        independently on either side of their head. This means they can look
+        forwards and backwards at the same time! This is particularly useful as
+        they hunt for food by sight.</p>
+      <h2>Snout</h2>
+      <p>Seahorses have long thin snouts enabling them to probe into nooks and
+        crannies for food. When they find food they suck it up through their
+        snouts like a vacuum cleaner. Their snouts can expand if their prey is
+        larger than the snout. They are not able to chew and have to
+        disintegrate the food as they eat it.</p>
+      <h2>Diet</h2>
+      <p>Seahorses eat small crustacea such as Mysis Shrimp. An adult eats 30-50
+        times a day. Seahorse fry (baby seahorses) eat a staggering 3000 pieces
+        of food per day.</p>
+      <h2>Tail</h2>
+      <p>Seahorses have a prehensile tail. This allows them to grip onto
+        eelgrass and other weeds and prevents them from being washed away by
+        strong currents and waves.</p>
+      <h2>Colour</h2>
+      <p>Seahorses can change colour very quickly and match any surroundings in
+        which it finds itself. They have even been known to turn bright red to
+        match floating debris.</p>
+      <p>Both males and females also change colour during their courtship
+        display.</p>
+      <h2>Body</h2>
+      <p>Unlike most other fish, seahorses have an exoskeleton. Their bodies are
+        made up of hard, external, bony plates that are fused together with a
+        fleshy covering. They do not have scales.</p>
+    </figure>
+
+    </article>
+  </main>
+
+  <footer>
+    <h2>Seahorse Friends:</h2>
+    <ul>
+      
+      <li><a href="http://www.theseahorsetrust.org/seahorse-facts.aspx"
+          target="_blank">The Seahorse Trust</a> | </li>
+      <li><a
+          href="http://www.nationalgeographic.com/animals/fish/group/seahorses/"
+          target="_blank">National Geographic</a> | </li>
+      <li><a href="http://seahorse.com/" target="_blank">Seahorse.com</a> | </li>
+      <li><a href="http://www.allthesea.com/Seahorses.html" target="_blank">All
+          The Sea</a></li>
+    </ul>
+    <p>&copy; Seahorse Serenity 2020</p>
+  </footer>
+</body>
+
+</html>
